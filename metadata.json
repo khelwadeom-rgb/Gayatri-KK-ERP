@@ -1,0 +1,6 @@
+{
+  "name": "Gayatri Krushi Kendra ERP",
+  "description": "Professional Agriculture Shop Management System with Billing, Inventory, Credit/Udhari, Farmers Relationship Management, and Analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

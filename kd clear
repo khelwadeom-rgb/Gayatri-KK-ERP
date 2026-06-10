@@ -1,0 +1,7 @@
+[35m.env.example[m[36m:[m[32m1[m[36m:[m# [1;31mGEMINI_API_KEY[m: Required for Gemini AI API calls.
+[35m.env.example[m[36m:[m[32m6[m[36m:[m[1;31mGEMINI_API_KEY[m=YOUR_[1;31mGEMINI_API_KEY[m
+[35mREADME.md[m[36m:[m[32m20[m[36m:[m4. Create a file named `.env` in the project directory and set `[1;31mGEMINI_API_KEY[m` in that file to your Gemini API key (see `.env.example` for an example)
+[35mapp/src/main/java/com/example/data/api/GeminiClient.kt[m[36m:[m[32m79[m[36m:[m        val apiKey = BuildConfig.[1;31mGEMINI_API_KEY[m
+[35mapp/src/main/java/com/example/data/api/GeminiClient.kt[m[36m:[m[32m80[m[36m:[m        if (apiKey.isEmpty() || apiKey == "MY_[1;31mGEMINI_API_KEY[m") {
+[35mapp/src/main/java/com/example/data/api/GeminiClient.kt[m[36m:[m[32m118[m[36m:[m        val apiKey = BuildConfig.[1;31mGEMINI_API_KEY[m
+[35mapp/src/main/java/com/example/data/api/GeminiClient.kt[m[36m:[m[32m119[m[36m:[m        if (apiKey.isEmpty() || apiKey == "MY_[1;31mGEMINI_API_KEY[m") {

@@ -1,0 +1,55 @@
+# Android
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+build/
+*/build/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+deploymentTargetDropDown.xml
+assetWizardSettings.xml
+
+# Firebase (Sensitive configurations)
+google-services.json
+app/google-services.json
+app/src/testDebug/google-services/google-services.json
+
+# Environment Files (API Keys & Secrets)
+.env
+.env.local
+.env.production
+.env.development
+
+# Keystores & Signing Files
+*.jks
+*.keystore
+keystore.properties
+release-key.jks
+
+# Build Artifacts (APK / AAB)
+*.apk
+*.ap_
+*.aab
+output.json
+
+# Log Files
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temp Files
+tmp/
+temp/
+
+# Cache
+.cache/
+
+# Gemini / Google API Keys (Specific safety)
+*local.properties*
+secrets.properties

@@ -1,0 +1,64 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="70dp"
+    android:viewportWidth="450"
+    android:viewportHeight="360">
+
+    <!-- Background (Optional, typically transparent for logos, but user image has black) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,0h400v400h-400z" />
+
+    <!-- Sun and Rays -->
+    <path
+        android:fillColor="#E7B334"
+        android:pathData="M170,130m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    <path
+        android:strokeColor="#FDB913"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M165,70v-20 M175,180v20 M230,125h20 M109,125h-20 M210,80l15,-15 M160,140l-15,15 M219,160l15,15 M125,80l-15,-15" />
+    <!-- Large GKK Text -->
+    <!-- G -->
+    <path
+        android:fillColor="#54E25C"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M90,200c0,-30 20,-55 50,-55c20,0 35,10 40,20l-15,15c-5,-5 -15,-10 -25,-10c-20,0 -30,15 -30,30s10,30 30,30c15,0 20,-10 20,-20v-10h-20v-15h40v45c-15,15 -30,20 -45,20c-30,0 -45,-25 -45,-50z" />
+    <!-- K -->
+    <path
+        android:fillColor="#34D950"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M190,159h20v45l35,-45h25l-40,50l45,55h-25l-40,-50v50h-20z" />
+    <!-- K -->
+    <path
+        android:fillColor="#4DCC56"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M280,169h20v45l35,-45h25l-40,50l45,55h-25l-40,-50v50h-20z" />
+
+    <!-- Bottom Leaves -->
+    <!-- Left Leaf -->
+    <path
+        android:fillColor="#086F0B"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M150,270c-40,0 -70,-30 -70,-60c30,10 60,30 70,50z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M90,220q30,20 60,50" />
+
+    <!-- Right Leaf -->
+    <path
+        android:fillColor="#1A781F"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M300,290c40,0 70,-30 70,-60c-30,10 -60,30 -70,60z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M360,240q-30,20 -60,50" />
+
+</vector>
